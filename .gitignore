@@ -26,3 +26,7 @@ yarn-error.log*
 *.fig
 *.xd
 .prettierignore
+
+/src/design
+README-template.md
+style-guide.md

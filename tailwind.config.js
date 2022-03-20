@@ -12,6 +12,9 @@ module.exports = {
         "fem-dark-gray-blue": "hsl(217, 19%, 24%)",
         "fem-dark-blue": "hsl(218, 23%, 16%)"
       },
+      boxShadow: {
+        'glow': '0px 0px 40px 10px rgba(82,255,168,0.76)',
+      },
     },
     fontFamily: {
       "manrope": ['Manrope', 'sans-serif']

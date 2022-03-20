@@ -11,8 +11,10 @@ export default function App() {
 
     useEffect(() => {
         document.getElementById("advice-button").classList.add("pointer-events-none", "bg-gray-500")
+        document.getElementById("advice-button").classList.remove("bg-fem-neon-green")
         setTimeout(() => {
             document.getElementById("advice-button").classList.remove("pointer-events-none", "bg-gray-500")
+            document.getElementById("advice-button").classList.add("bg-fem-neon-green")
         }, 2000)
     }, [advice])
 

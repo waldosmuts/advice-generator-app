@@ -10,7 +10,7 @@ export default function Main(props) {
                 <h1 className="text-fem-neon-green uppercase font-manrope font-medium md:font-bold text-xxs md:text-xs tracking-wide-af">Advice #{props.advice.id}</h1>
                 <p className="text-fem-light-cyan text-2xl md:text-2/5xl tracking-wide text-center font-bold font-manrope mt-5">&ldquo;{props.advice.advice}&rdquo;</p>
                 <img className="mt-6" src={window.innerWidth < 500 ? patternDividerMobile : patternDividerDesktop} alt="" />
-                <button id="advice-button" onClick={props.getAdvice} className="bg-fem-neon-green p-5 rounded-full absolute -bottom-8 cursor-pointer focus:outline-none active:outline-none"><img src={diceIcon} alt="dice" /></button>
+                <button id="advice-button" onClick={props.getAdvice} className="bg-fem-neon-green p-5 rounded-full absolute -bottom-8 cursor-pointer focus:outline-none active:outline-none hover:shadow-glow transition"><img src={diceIcon} alt="dice" /></button>
             </div>
         </main>
     )
